@@ -39,7 +39,7 @@ while game_is_on:
     time.sleep(counter)
 
     #### bounce roof
-    if ball.ycor() > 270:
+    if ball.ycor() > 300:
         ball.bounce_roof()
 
     ##### bounce walls
